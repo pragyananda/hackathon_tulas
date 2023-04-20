@@ -17,3 +17,9 @@ with st.form(key='my_form'):
 if submit_button:
     # if the submit button is clicked, then print the selected option
     st.write(option)
+
+# create a css file
+with open("style.css") as f:
+    st.markdown('<style>{}</style>'.format(f.read()), unsafe_allow_html=True)
+
+    
