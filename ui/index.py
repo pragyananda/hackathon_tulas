@@ -20,4 +20,3 @@ with st.form(key='my_form'):
 if submit_button:
     # if the submit button is clicked, then print the selected option
     st.write(option)
-
