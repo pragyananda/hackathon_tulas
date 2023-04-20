@@ -1,0 +1,13 @@
+[data-testid="stForm"] {
+    background-color: #227f99;
+    border-radius: 5px;
+}
+[data-testid="stMarkdownContainer"] p {
+    font-size: 20px;
+    color: #fff;
+    font-weight: 600;
+}
+
+[data-testid="stFormSubmitButton"] .css-1x8cf1d{
+background-color: red;
+}
